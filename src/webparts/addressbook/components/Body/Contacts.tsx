@@ -102,18 +102,6 @@ class AddContactDialog extends Component<
       }
     }
 
-    // if (this.state.mobile === "") {
-    //   this.setState({ mobileWarning: "Mobile can't be empty" });
-    //   count++;
-    // } else {
-    //   if (!mobileFilter.test(this.state.mobile)) {
-    //     this.setState({ mobileWarning: "Enter valid number" });
-    //     count++;
-    //   } else {
-    //     this.setState({ mobileWarning: "*" });
-    //   }
-    // }
-
     return count > 0 ? false : true;
   }
 

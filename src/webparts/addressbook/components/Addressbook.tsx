@@ -24,7 +24,7 @@ export default class Addressbook extends Component<ContactCRUDProps, any> {
     this.showContact = this.showContact.bind(this);
     this.setContacts = this.setContacts.bind(this);
 
-    //ApiProvider.generateToken();
+    
   }
 
   handleAddDialog() {
